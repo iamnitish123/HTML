@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <style>
+        table, tr, th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        </style>
+</head>
+<body>
+    
+    <h1>Registration Form</h1>
+    <Form action=""></Form>
+    <p>First Name *<input type="text" name="fname"></p>
+    <p>Last Name *<input type="text" name="last name"></p>
+    <p>Address *<textarea name="address" cols="100" rows="5"></textarea> </p>
+    <p>Pincode *<input type="number" name="pincode_no"></p>
+    <p>City *<select name="city_name" id="city_name"></p>
+    <option value="">--Select City</option>
+    <option value="ahmedabad">Ahmedabad</option>
+    <option value="delhi">Delhi</option>
+    <option value="pune">pune</option>
+    <option value="banglore">Banglore</option>
+    <option value="mumbai">Mumbai</option>
+    <option value="lucknow">Lucknow</option>
+    <option value="Chennai">Chennai</option>
+    </select>
+    <p>Mobile No *<input type="number" name="mobile_no"></p>
+    <p>Gender:</p>
+    Male<input type="radio" name="gender" id="male"> Female<input type="radio" name="gender" id="female"> Others<input type="radio" name="gender" id="others"> 
+    <p>Education:</p>
+    10th<input type="radio" name="education" id="10th"> 12th<input type="radio" name="education" id="12th"> Bachelor<input type="radio" name="education" id="bachelor"> Masters<input type="radio" name="education" id="masters">
+    <p>Email_ID *<input type="email" name="email_id"></p>
+    <input type="submit" name="submit" id="submit">
+    <H6>* i have filled the all data trully by my self.</H6>
+</body>
+</html>
